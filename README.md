@@ -5,6 +5,10 @@ version 0.15.1.
 
 ## Build & development
 
+If npm install package has any problem related to proxy config, change the npm proxy settings:
+npm config set registry "http://registry.npmjs.org"
+npm config set strict-ssl false
+
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
